@@ -25,7 +25,7 @@
 - `dokku domains:add snipt snipt.net`
 - `dokku storage:mount snipt /var/lib/dokku/data/storage/snipt-whoosh:/app/snipt-whoosh`
 - `dokku config:set DOKKU_LETSENCRYPT_EMAIL=support@snipt.net SECRET_KEY=<some-secret-key> USE_SSL=true WHOOSH_PATH=/app/snipt-whoosh/whoosh_index`
-- `git remote add dokku dokku@server.nicksergeant.com:snipt`
+- git remote add dokku dokku@server.nicksergeant.com:snipt`
 - `git push dokku`
 
 ## Automatic deploy to Heroku
